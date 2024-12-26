@@ -1,10 +1,9 @@
 package com.example.demo.Model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data @AllArgsConstructor
+@Setter @Getter
+@AllArgsConstructor
 @NoArgsConstructor
 public class Customer {
 
