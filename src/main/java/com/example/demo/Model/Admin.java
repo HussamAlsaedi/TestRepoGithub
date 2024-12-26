@@ -10,6 +10,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+import java.time.LocalDate;
+
 @Entity
 @Setter
 @Getter
@@ -24,4 +26,6 @@ public class Admin {
     @NotEmpty(message = "name is mandatory")
     @Size(min = 2,max = 10,message = "name characters must be more then 1.")
     private String name;
+
+
 }
